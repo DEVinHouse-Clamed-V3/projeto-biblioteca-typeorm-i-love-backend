@@ -7,7 +7,7 @@ import {
 } from "typeorm";
 
 @Entity("authors")
-export class Autor {
+export default class Autor {
   @PrimaryGeneratedColumn()
   id: number;
 
